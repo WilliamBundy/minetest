@@ -1,0 +1,1572 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>minetest-Release@minetest</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.cdt.make.core.makeBuilder</name>
+			<triggers>clean,full,incremental,</triggers>
+			<arguments>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.cleanBuildTarget</key>
+					<value>clean</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableCleanBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.append_environment</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.stopOnError</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enabledIncrementalBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.command</key>
+					<value>/usr/bin/make</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.contents</key>
+					<value>org.eclipse.cdt.make.core.activeConfigSettings</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.inc</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.arguments</key>
+					<value></value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.buildLocation</key>
+					<value>/home/will/Development/minetest</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.useDefaultBuildCmd</key>
+					<value>false</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.environment</key>
+					<value>VERBOSE=1|CMAKE_NO_VERBOSE=1|</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableFullBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.auto</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableAutoBuild</key>
+					<value>false</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.clean</key>
+					<value>clean</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.fullBuildTarget</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.buildArguments</key>
+					<value></value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.location</key>
+					<value>/home/will/Development/minetest</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.autoBuildTarget</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.core.errorOutputParser</key>
+					<value>org.eclipse.cdt.core.MakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GASErrorParser;org.eclipse.cdt.core.GLDErrorParser;</value>
+				</dictionary>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.cdt.make.core.ScannerConfigBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.cdt.core.ccnature</nature>
+		<nature>org.eclipse.cdt.make.core.makeNature</nature>
+		<nature>org.eclipse.cdt.make.core.ScannerConfigNature</nature>
+		<nature>org.eclipse.cdt.core.cnature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>[Subprojects]</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Subprojects]/lua</name>
+			<type>2</type>
+			<location>/home/will/Development/minetest/src/lua</location>
+		</link>
+		<link>
+			<name>[Targets]</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/rollback_interface.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/rollback_interface.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/rollback.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/rollback.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/genericobject.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/genericobject.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/voxelalgorithms.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/voxelalgorithms.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/sound.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/sound.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/quicktune.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/quicktune.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/subgame.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/subgame.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/inventorymanager.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/inventorymanager.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/mods.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/mods.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/content_abm.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/content_abm.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/craftdef.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/craftdef.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/nameidmapping.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/nameidmapping.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/itemdef.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/itemdef.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/nodedef.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/nodedef.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/object_properties.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/object_properties.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/log.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/log.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/content_sao.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/content_sao.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/emerge.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/emerge.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/mapgen.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/mapgen.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/mapgen_v6.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/mapgen_v6.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/mapgen_v7.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/mapgen_v7.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/mapgen_indev.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/mapgen_indev.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/mapgen_singlenode.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/mapgen_singlenode.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/mapgen_math.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/mapgen_math.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/treegen.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/treegen.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/dungeongen.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/dungeongen.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/cavegen.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/cavegen.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/content_nodemeta.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/content_nodemeta.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/content_mapnode.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/content_mapnode.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/collision.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/collision.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/nodemetadata.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/nodemetadata.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/nodetimer.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/nodetimer.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/serverobject.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/serverobject.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/noise.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/noise.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/porting.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/porting.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/tool.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/tool.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/defaultsettings.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/defaultsettings.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/mapnode.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/mapnode.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/voxel.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/voxel.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/inventory.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/inventory.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/debug.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/debug.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/serialization.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/serialization.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/light.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/light.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/filesys.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/filesys.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/connection.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/connection.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/environment.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/environment.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/server.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/server.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/socket.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/socket.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/mapblock.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/mapblock.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/mapsector.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/mapsector.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/map.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/map.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/player.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/player.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/test.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/test.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/sha1.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/sha1.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/base64.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/base64.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/ban.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/ban.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/biome.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/biome.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/clientserver.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/clientserver.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/staticobject.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/staticobject.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/serverlist.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/serverlist.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/pathfinder.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/pathfinder.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/convert_json.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/convert_json.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/c_content.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/script/common/c_content.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/c_converter.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/script/common/c_converter.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/c_types.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/script/common/c_types.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/c_internal.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/script/common/c_internal.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/s_base.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/script/cpp_api/s_base.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/s_entity.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/script/cpp_api/s_entity.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/s_env.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/script/cpp_api/s_env.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/s_inventory.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/script/cpp_api/s_inventory.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/s_item.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/script/cpp_api/s_item.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/s_node.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/script/cpp_api/s_node.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/s_nodemeta.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/script/cpp_api/s_nodemeta.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/s_player.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/script/cpp_api/s_player.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/scriptapi.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/script/cpp_api/scriptapi.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/l_base.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/script/lua_api/l_base.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/l_craft.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/script/lua_api/l_craft.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/l_env.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/script/lua_api/l_env.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/l_inventory.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/script/lua_api/l_inventory.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/l_item.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/script/lua_api/l_item.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/luaapi.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/script/lua_api/luaapi.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/l_nodemeta.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/script/lua_api/l_nodemeta.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/l_nodetimer.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/script/lua_api/l_nodetimer.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/l_noise.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/script/lua_api/l_noise.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/l_object.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/script/lua_api/l_object.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/l_particles.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/script/lua_api/l_particles.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/l_vmanip.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/script/lua_api/l_vmanip.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/directiontables.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/util/directiontables.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/numeric.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/util/numeric.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/pointedthing.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/util/pointedthing.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/serialize.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/util/serialize.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/string.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/util/string.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/timetaker.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/util/timetaker.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/sound_openal.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/sound_openal.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/localplayer.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/localplayer.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/sky.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/sky.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/clientmap.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/clientmap.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/content_cso.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/content_cso.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/content_mapblock.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/content_mapblock.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/content_cao.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/content_cao.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/mesh.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/mesh.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/mapblock_mesh.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/mapblock_mesh.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/farmesh.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/farmesh.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/keycode.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/keycode.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/camera.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/camera.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/clouds.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/clouds.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/particles.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/particles.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/clientobject.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/clientobject.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/chat.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/chat.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/hud.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/hud.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/guiKeyChangeMenu.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/guiKeyChangeMenu.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/guiMessageMenu.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/guiMessageMenu.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/guiTextInputMenu.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/guiTextInputMenu.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/guiFormSpecMenu.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/guiFormSpecMenu.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/guiPauseMenu.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/guiPauseMenu.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/guiPasswordChange.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/guiPasswordChange.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/guiVolumeChange.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/guiVolumeChange.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/guiDeathScreen.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/guiDeathScreen.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/guiChatConsole.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/guiChatConsole.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/client.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/client.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/filecache.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/filecache.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/tile.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/tile.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/shader.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/shader.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/game.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/game.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/main.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/main.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/guiEngine.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/guiEngine.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/guiLuaApi.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/guiLuaApi.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Source Files/guiFileSelectMenu.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/guiFileSelectMenu.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetest/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/rollback_interface.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/rollback_interface.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/rollback.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/rollback.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/genericobject.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/genericobject.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/voxelalgorithms.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/voxelalgorithms.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/sound.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/sound.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/quicktune.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/quicktune.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/subgame.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/subgame.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/inventorymanager.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/inventorymanager.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/mods.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/mods.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/content_abm.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/content_abm.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/craftdef.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/craftdef.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/nameidmapping.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/nameidmapping.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/itemdef.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/itemdef.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/nodedef.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/nodedef.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/object_properties.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/object_properties.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/log.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/log.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/content_sao.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/content_sao.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/emerge.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/emerge.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/mapgen.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/mapgen.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/mapgen_v6.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/mapgen_v6.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/mapgen_v7.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/mapgen_v7.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/mapgen_indev.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/mapgen_indev.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/mapgen_singlenode.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/mapgen_singlenode.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/mapgen_math.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/mapgen_math.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/treegen.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/treegen.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/dungeongen.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/dungeongen.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/cavegen.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/cavegen.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/content_nodemeta.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/content_nodemeta.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/content_mapnode.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/content_mapnode.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/collision.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/collision.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/nodemetadata.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/nodemetadata.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/nodetimer.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/nodetimer.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/serverobject.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/serverobject.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/noise.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/noise.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/porting.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/porting.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/tool.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/tool.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/defaultsettings.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/defaultsettings.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/mapnode.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/mapnode.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/voxel.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/voxel.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/inventory.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/inventory.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/debug.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/debug.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/serialization.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/serialization.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/light.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/light.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/filesys.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/filesys.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/connection.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/connection.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/environment.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/environment.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/server.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/server.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/socket.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/socket.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/mapblock.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/mapblock.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/mapsector.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/mapsector.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/map.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/map.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/player.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/player.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/test.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/test.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/sha1.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/sha1.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/base64.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/base64.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/ban.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/ban.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/biome.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/biome.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/clientserver.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/clientserver.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/staticobject.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/staticobject.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/serverlist.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/serverlist.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/pathfinder.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/pathfinder.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/convert_json.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/convert_json.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/c_content.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/script/common/c_content.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/c_converter.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/script/common/c_converter.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/c_types.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/script/common/c_types.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/c_internal.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/script/common/c_internal.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/s_base.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/script/cpp_api/s_base.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/s_entity.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/script/cpp_api/s_entity.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/s_env.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/script/cpp_api/s_env.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/s_inventory.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/script/cpp_api/s_inventory.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/s_item.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/script/cpp_api/s_item.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/s_node.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/script/cpp_api/s_node.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/s_nodemeta.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/script/cpp_api/s_nodemeta.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/s_player.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/script/cpp_api/s_player.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/scriptapi.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/script/cpp_api/scriptapi.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/l_base.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/script/lua_api/l_base.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/l_craft.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/script/lua_api/l_craft.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/l_env.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/script/lua_api/l_env.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/l_inventory.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/script/lua_api/l_inventory.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/l_item.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/script/lua_api/l_item.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/luaapi.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/script/lua_api/luaapi.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/l_nodemeta.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/script/lua_api/l_nodemeta.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/l_nodetimer.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/script/lua_api/l_nodetimer.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/l_noise.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/script/lua_api/l_noise.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/l_object.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/script/lua_api/l_object.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/l_particles.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/script/lua_api/l_particles.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/l_vmanip.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/script/lua_api/l_vmanip.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/directiontables.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/util/directiontables.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/numeric.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/util/numeric.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/pointedthing.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/util/pointedthing.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/serialize.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/util/serialize.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/string.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/util/string.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/timetaker.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/util/timetaker.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Source Files/main.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/main.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] minetestserver/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lua</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lua/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lua/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lua/Source Files/lapi.c</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/lua/src/lapi.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lua/Source Files/lauxlib.c</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/lua/src/lauxlib.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lua/Source Files/lbaselib.c</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/lua/src/lbaselib.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lua/Source Files/lcode.c</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/lua/src/lcode.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lua/Source Files/ldblib.c</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/lua/src/ldblib.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lua/Source Files/ldebug.c</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/lua/src/ldebug.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lua/Source Files/ldo.c</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/lua/src/ldo.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lua/Source Files/ldump.c</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/lua/src/ldump.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lua/Source Files/lfunc.c</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/lua/src/lfunc.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lua/Source Files/lgc.c</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/lua/src/lgc.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lua/Source Files/linit.c</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/lua/src/linit.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lua/Source Files/liolib.c</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/lua/src/liolib.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lua/Source Files/llex.c</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/lua/src/llex.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lua/Source Files/lmathlib.c</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/lua/src/lmathlib.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lua/Source Files/lmem.c</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/lua/src/lmem.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lua/Source Files/loadlib.c</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/lua/src/loadlib.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lua/Source Files/lobject.c</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/lua/src/lobject.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lua/Source Files/lopcodes.c</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/lua/src/lopcodes.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lua/Source Files/loslib.c</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/lua/src/loslib.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lua/Source Files/lparser.c</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/lua/src/lparser.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lua/Source Files/lstate.c</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/lua/src/lstate.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lua/Source Files/lstring.c</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/lua/src/lstring.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lua/Source Files/lstrlib.c</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/lua/src/lstrlib.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lua/Source Files/ltable.c</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/lua/src/ltable.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lua/Source Files/ltablib.c</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/lua/src/ltablib.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lua/Source Files/ltm.c</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/lua/src/ltm.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lua/Source Files/lundump.c</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/lua/src/lundump.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lua/Source Files/lvm.c</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/lua/src/lvm.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lua/Source Files/lzio.c</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/lua/src/lzio.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lua/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lua/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lua/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] lua/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] jthread</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] jthread/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] jthread/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] jthread/Source Files/jmutex.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/jthread/pthread/jmutex.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] jthread/Source Files/jthread.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/jthread/pthread/jthread.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] jthread/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] jthread/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] jthread/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] jthread/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] jsoncpp</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] jsoncpp/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] jsoncpp/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] jsoncpp/Source Files/jsoncpp.cpp</name>
+			<type>1</type>
+			<location>/home/will/Development/minetest/src/json/jsoncpp.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] jsoncpp/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] jsoncpp/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] jsoncpp/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] jsoncpp/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>

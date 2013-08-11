@@ -228,17 +228,6 @@ void LocalPlayer::move(f32 dtime, ClientEnvironment *env, f32 pos_max_d,
 		v3s16 pos_i_bottom = floatToInt(position - v3f(0,BS/2,0), BS);
 		v2f player_p2df(position.X, position.Z);
 		f32 min_distance_f = 100000.0*BS;
-		// If already seeking from some node, compare to it.
-		/*if(m_sneak_node_exists)
-		{
-			v3f sneaknode_pf = intToFloat(m_sneak_node, BS);
-			v2f sneaknode_p2df(sneaknode_pf.X, sneaknode_pf.Z);
-			f32 d_horiz_f = player_p2df.getDistanceFrom(sneaknode_p2df);
-			f32 d_vert_f = fabs(sneaknode_pf.Y + BS*0.5 - position.Y);
-			// Ignore if player is not on the same level (likely dropped)
-			if(d_vert_f < 0.15*BS)
-				min_distance_f = d_horiz_f;
-		}*/
 		v3s16 new_sneak_node = m_sneak_node;
 		for(s16 x=-1; x<=1; x++)
 		for(s16 z=-1; z<=1; z++)
@@ -564,6 +553,16 @@ void LocalPlayer::applyControl(float dtime)
 		incH = incV = movement_acceleration_fast * BS * dtime;
 	else
 		incH = incV = movement_acceleration_default * BS * dtime;
+
+	// If the player was moving, but isn't pressing the key
+	//  don't ease their speed to zero in all cases
+	if(speedH.getLengthSQ() == 0 && m_speed.getLengthSQ() >= 0.01)
+	{
+		// If they're on the ground, slow them down faster than if they're in the air.
+		f32 damping = touching_ground ? movement_damping_ground : movement_damping_air;
+		speedH.X = m_speed.X * damping;
+		speedH.Z = m_speed.Z * damping;
+	}
 
 	// Accelerate to target speed with maximum increment
 	accelerateHorizontal(speedH * physics_override_speed, incH * physics_override_speed);

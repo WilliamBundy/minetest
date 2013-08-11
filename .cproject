@@ -1,0 +1,3770 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?>
+
+<cproject>
+<storageModule moduleId="org.eclipse.cdt.core.settings">
+<cconfiguration id="org.eclipse.cdt.core.default.config.1">
+<storageModule buildSystemId="org.eclipse.cdt.core.defaultConfigDataProvider" id="org.eclipse.cdt.core.default.config.1" moduleId="org.eclipse.cdt.core.settings" name="Configuration">
+<externalSettings/>
+<extensions>
+<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser">
+<attribute key="addr2line" value="addr2line"/>
+<attribute key="c++filt" value="c++filt"/>
+</extension>
+</extensions>
+</storageModule>
+<storageModule moduleId="org.eclipse.cdt.core.language.mapping">
+<project-mappings/>
+</storageModule>
+<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+<storageModule moduleId="org.eclipse.cdt.core.pathentry">
+<pathentry excluding="**/CMakeFiles/" kind="out" path=""/>
+<pathentry kind="mac" name="USE_CMAKE_CONFIG_H" path="" value=""/>
+<pathentry include="/home/will/Development/minetest/src" kind="inc" path="" system="true"/>
+<pathentry include="/usr/include/irrlicht" kind="inc" path="" system="true"/>
+<pathentry include="/home/will/Development/minetest/src/Release" kind="inc" path="" system="true"/>
+<pathentry include="/usr/include/AL" kind="inc" path="" system="true"/>
+<pathentry include="/home/will/Development/minetest/src/jthread" kind="inc" path="" system="true"/>
+<pathentry include="/home/will/Development/minetest/src/lua/src" kind="inc" path="" system="true"/>
+<pathentry include="/home/will/Development/minetest/src/json" kind="inc" path="" system="true"/>
+<pathentry include="/home/will/Development/minetest/src/script" kind="inc" path="" system="true"/>
+<pathentry include="/usr/include/curl" kind="inc" path="" system="true"/>
+<pathentry include="/home/will/Development/minetest/src/lua/build" kind="inc" path="" system="true"/>
+</storageModule>
+<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets">
+<buildTargets>
+<target name=": install" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>install</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": install/local" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>install/local</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": install/strip" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>install/strip</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": list_install_components" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>list_install_components</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": package" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>package</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": package_source" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>package_source</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": rebuild_cache" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>rebuild_cache</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": all" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>all</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": clean" path="" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>clean</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[exe] minetest" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>minetest</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[exe] minetest/fast" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>minetest/fast</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="Build" path="[Targets]/[exe] minetest" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-C "/home/will/Development/minetest" </buildArguments>
+<buildTarget>minetest</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="Clean" path="[Targets]/[exe] minetest" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/cmake</buildCommand>
+<buildArguments>-E chdir "/home/will/Development/minetest/src" "/usr/bin/cmake" -P "CMakeFiles/minetest.dir/cmake_clean.cmake"</buildArguments>
+<buildTarget></buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[exe] minetestserver" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>minetestserver</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[exe] minetestserver/fast" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>minetestserver/fast</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="Build" path="[Targets]/[exe] minetestserver" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-C "/home/will/Development/minetest" </buildArguments>
+<buildTarget>minetestserver</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="Clean" path="[Targets]/[exe] minetestserver" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/cmake</buildCommand>
+<buildArguments>-E chdir "/home/will/Development/minetest/src" "/usr/bin/cmake" -P "CMakeFiles/minetestserver.dir/cmake_clean.cmake"</buildArguments>
+<buildTarget></buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": all" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>all</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": clean" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>clean</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] ban.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>ban.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] ban.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>ban.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] ban.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>ban.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] base64.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>base64.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] base64.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>base64.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] base64.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>base64.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] biome.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>biome.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] biome.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>biome.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] biome.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>biome.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] camera.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>camera.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] camera.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>camera.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] camera.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>camera.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] cavegen.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>cavegen.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] cavegen.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>cavegen.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] cavegen.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>cavegen.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] chat.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>chat.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] chat.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>chat.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] chat.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>chat.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] client.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>client.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] client.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>client.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] client.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>client.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] clientmap.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>clientmap.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] clientmap.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>clientmap.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] clientmap.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>clientmap.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] clientobject.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>clientobject.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] clientobject.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>clientobject.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] clientobject.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>clientobject.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] clientserver.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>clientserver.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] clientserver.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>clientserver.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] clientserver.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>clientserver.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] clouds.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>clouds.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] clouds.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>clouds.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] clouds.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>clouds.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] collision.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>collision.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] collision.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>collision.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] collision.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>collision.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] connection.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>connection.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] connection.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>connection.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] connection.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>connection.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] content_abm.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>content_abm.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] content_abm.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>content_abm.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] content_abm.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>content_abm.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] content_cao.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>content_cao.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] content_cao.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>content_cao.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] content_cao.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>content_cao.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] content_cso.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>content_cso.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] content_cso.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>content_cso.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] content_cso.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>content_cso.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] content_mapblock.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>content_mapblock.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] content_mapblock.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>content_mapblock.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] content_mapblock.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>content_mapblock.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] content_mapnode.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>content_mapnode.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] content_mapnode.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>content_mapnode.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] content_mapnode.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>content_mapnode.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] content_nodemeta.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>content_nodemeta.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] content_nodemeta.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>content_nodemeta.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] content_nodemeta.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>content_nodemeta.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] content_sao.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>content_sao.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] content_sao.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>content_sao.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] content_sao.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>content_sao.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] convert_json.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>convert_json.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] convert_json.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>convert_json.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] convert_json.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>convert_json.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] craftdef.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>craftdef.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] craftdef.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>craftdef.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] craftdef.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>craftdef.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] debug.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>debug.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] debug.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>debug.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] debug.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>debug.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] defaultsettings.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>defaultsettings.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] defaultsettings.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>defaultsettings.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] defaultsettings.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>defaultsettings.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] dungeongen.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>dungeongen.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] dungeongen.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>dungeongen.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] dungeongen.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>dungeongen.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] emerge.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>emerge.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] emerge.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>emerge.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] emerge.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>emerge.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] environment.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>environment.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] environment.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>environment.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] environment.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>environment.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] farmesh.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>farmesh.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] farmesh.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>farmesh.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] farmesh.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>farmesh.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] filecache.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>filecache.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] filecache.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>filecache.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] filecache.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>filecache.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] filesys.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>filesys.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] filesys.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>filesys.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] filesys.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>filesys.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] game.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>game.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] game.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>game.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] game.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>game.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] genericobject.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>genericobject.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] genericobject.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>genericobject.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] genericobject.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>genericobject.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] guiChatConsole.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>guiChatConsole.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] guiChatConsole.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>guiChatConsole.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] guiChatConsole.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>guiChatConsole.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] guiDeathScreen.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>guiDeathScreen.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] guiDeathScreen.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>guiDeathScreen.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] guiDeathScreen.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>guiDeathScreen.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] guiEngine.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>guiEngine.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] guiEngine.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>guiEngine.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] guiEngine.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>guiEngine.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] guiFileSelectMenu.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>guiFileSelectMenu.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] guiFileSelectMenu.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>guiFileSelectMenu.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] guiFileSelectMenu.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>guiFileSelectMenu.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] guiFormSpecMenu.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>guiFormSpecMenu.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] guiFormSpecMenu.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>guiFormSpecMenu.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] guiFormSpecMenu.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>guiFormSpecMenu.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] guiKeyChangeMenu.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>guiKeyChangeMenu.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] guiKeyChangeMenu.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>guiKeyChangeMenu.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] guiKeyChangeMenu.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>guiKeyChangeMenu.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] guiLuaApi.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>guiLuaApi.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] guiLuaApi.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>guiLuaApi.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] guiLuaApi.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>guiLuaApi.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] guiMessageMenu.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>guiMessageMenu.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] guiMessageMenu.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>guiMessageMenu.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] guiMessageMenu.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>guiMessageMenu.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] guiPasswordChange.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>guiPasswordChange.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] guiPasswordChange.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>guiPasswordChange.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] guiPasswordChange.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>guiPasswordChange.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] guiPauseMenu.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>guiPauseMenu.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] guiPauseMenu.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>guiPauseMenu.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] guiPauseMenu.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>guiPauseMenu.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] guiTextInputMenu.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>guiTextInputMenu.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] guiTextInputMenu.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>guiTextInputMenu.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] guiTextInputMenu.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>guiTextInputMenu.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] guiVolumeChange.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>guiVolumeChange.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] guiVolumeChange.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>guiVolumeChange.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] guiVolumeChange.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>guiVolumeChange.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] hud.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>hud.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] hud.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>hud.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] hud.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>hud.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] inventory.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>inventory.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] inventory.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>inventory.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] inventory.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>inventory.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] inventorymanager.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>inventorymanager.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] inventorymanager.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>inventorymanager.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] inventorymanager.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>inventorymanager.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] itemdef.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>itemdef.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] itemdef.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>itemdef.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] itemdef.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>itemdef.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] keycode.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>keycode.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] keycode.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>keycode.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] keycode.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>keycode.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] light.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>light.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] light.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>light.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] light.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>light.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] localplayer.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>localplayer.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] localplayer.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>localplayer.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] localplayer.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>localplayer.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] log.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>log.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] log.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>log.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] log.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>log.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] main.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>main.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] main.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>main.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] main.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>main.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] map.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>map.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] map.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>map.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] map.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>map.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] mapblock.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>mapblock.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] mapblock.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>mapblock.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] mapblock.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>mapblock.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] mapblock_mesh.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>mapblock_mesh.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] mapblock_mesh.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>mapblock_mesh.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] mapblock_mesh.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>mapblock_mesh.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] mapgen.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>mapgen.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] mapgen.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>mapgen.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] mapgen.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>mapgen.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] mapgen_indev.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>mapgen_indev.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] mapgen_indev.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>mapgen_indev.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] mapgen_indev.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>mapgen_indev.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] mapgen_math.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>mapgen_math.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] mapgen_math.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>mapgen_math.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] mapgen_math.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>mapgen_math.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] mapgen_singlenode.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>mapgen_singlenode.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] mapgen_singlenode.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>mapgen_singlenode.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] mapgen_singlenode.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>mapgen_singlenode.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] mapgen_v6.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>mapgen_v6.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] mapgen_v6.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>mapgen_v6.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] mapgen_v6.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>mapgen_v6.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] mapgen_v7.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>mapgen_v7.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] mapgen_v7.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>mapgen_v7.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] mapgen_v7.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>mapgen_v7.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] mapnode.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>mapnode.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] mapnode.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>mapnode.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] mapnode.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>mapnode.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] mapsector.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>mapsector.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] mapsector.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>mapsector.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] mapsector.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>mapsector.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] mesh.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>mesh.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] mesh.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>mesh.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] mesh.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>mesh.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] mods.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>mods.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] mods.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>mods.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] mods.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>mods.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] nameidmapping.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>nameidmapping.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] nameidmapping.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>nameidmapping.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] nameidmapping.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>nameidmapping.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] nodedef.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>nodedef.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] nodedef.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>nodedef.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] nodedef.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>nodedef.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] nodemetadata.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>nodemetadata.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] nodemetadata.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>nodemetadata.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] nodemetadata.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>nodemetadata.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] nodetimer.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>nodetimer.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] nodetimer.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>nodetimer.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] nodetimer.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>nodetimer.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] noise.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>noise.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] noise.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>noise.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] noise.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>noise.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] object_properties.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>object_properties.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] object_properties.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>object_properties.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] object_properties.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>object_properties.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] particles.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>particles.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] particles.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>particles.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] particles.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>particles.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] pathfinder.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>pathfinder.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] pathfinder.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>pathfinder.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] pathfinder.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>pathfinder.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] player.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>player.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] player.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>player.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] player.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>player.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] porting.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>porting.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] porting.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>porting.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] porting.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>porting.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] quicktune.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>quicktune.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] quicktune.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>quicktune.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] quicktune.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>quicktune.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] rollback.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>rollback.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] rollback.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>rollback.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] rollback.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>rollback.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] rollback_interface.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>rollback_interface.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] rollback_interface.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>rollback_interface.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] rollback_interface.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>rollback_interface.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] script/common/c_content.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>script/common/c_content.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] script/common/c_content.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>script/common/c_content.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] script/common/c_content.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>script/common/c_content.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] script/common/c_converter.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>script/common/c_converter.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] script/common/c_converter.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>script/common/c_converter.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] script/common/c_converter.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>script/common/c_converter.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] script/common/c_internal.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>script/common/c_internal.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] script/common/c_internal.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>script/common/c_internal.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] script/common/c_internal.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>script/common/c_internal.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] script/common/c_types.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>script/common/c_types.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] script/common/c_types.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>script/common/c_types.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] script/common/c_types.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>script/common/c_types.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] script/cpp_api/s_base.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>script/cpp_api/s_base.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] script/cpp_api/s_base.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>script/cpp_api/s_base.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] script/cpp_api/s_base.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>script/cpp_api/s_base.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] script/cpp_api/s_entity.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>script/cpp_api/s_entity.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] script/cpp_api/s_entity.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>script/cpp_api/s_entity.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] script/cpp_api/s_entity.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>script/cpp_api/s_entity.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] script/cpp_api/s_env.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>script/cpp_api/s_env.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] script/cpp_api/s_env.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>script/cpp_api/s_env.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] script/cpp_api/s_env.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>script/cpp_api/s_env.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] script/cpp_api/s_inventory.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>script/cpp_api/s_inventory.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] script/cpp_api/s_inventory.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>script/cpp_api/s_inventory.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] script/cpp_api/s_inventory.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>script/cpp_api/s_inventory.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] script/cpp_api/s_item.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>script/cpp_api/s_item.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] script/cpp_api/s_item.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>script/cpp_api/s_item.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] script/cpp_api/s_item.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>script/cpp_api/s_item.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] script/cpp_api/s_node.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>script/cpp_api/s_node.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] script/cpp_api/s_node.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>script/cpp_api/s_node.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] script/cpp_api/s_node.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>script/cpp_api/s_node.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] script/cpp_api/s_nodemeta.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>script/cpp_api/s_nodemeta.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] script/cpp_api/s_nodemeta.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>script/cpp_api/s_nodemeta.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] script/cpp_api/s_nodemeta.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>script/cpp_api/s_nodemeta.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] script/cpp_api/s_player.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>script/cpp_api/s_player.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] script/cpp_api/s_player.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>script/cpp_api/s_player.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] script/cpp_api/s_player.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>script/cpp_api/s_player.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] script/cpp_api/scriptapi.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>script/cpp_api/scriptapi.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] script/cpp_api/scriptapi.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>script/cpp_api/scriptapi.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] script/cpp_api/scriptapi.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>script/cpp_api/scriptapi.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] script/lua_api/l_base.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>script/lua_api/l_base.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] script/lua_api/l_base.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>script/lua_api/l_base.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] script/lua_api/l_base.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>script/lua_api/l_base.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] script/lua_api/l_craft.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>script/lua_api/l_craft.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] script/lua_api/l_craft.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>script/lua_api/l_craft.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] script/lua_api/l_craft.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>script/lua_api/l_craft.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] script/lua_api/l_env.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>script/lua_api/l_env.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] script/lua_api/l_env.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>script/lua_api/l_env.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] script/lua_api/l_env.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>script/lua_api/l_env.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] script/lua_api/l_inventory.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>script/lua_api/l_inventory.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] script/lua_api/l_inventory.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>script/lua_api/l_inventory.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] script/lua_api/l_inventory.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>script/lua_api/l_inventory.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] script/lua_api/l_item.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>script/lua_api/l_item.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] script/lua_api/l_item.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>script/lua_api/l_item.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] script/lua_api/l_item.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>script/lua_api/l_item.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] script/lua_api/l_nodemeta.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>script/lua_api/l_nodemeta.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] script/lua_api/l_nodemeta.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>script/lua_api/l_nodemeta.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] script/lua_api/l_nodemeta.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>script/lua_api/l_nodemeta.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] script/lua_api/l_nodetimer.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>script/lua_api/l_nodetimer.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] script/lua_api/l_nodetimer.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>script/lua_api/l_nodetimer.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] script/lua_api/l_nodetimer.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>script/lua_api/l_nodetimer.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] script/lua_api/l_noise.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>script/lua_api/l_noise.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] script/lua_api/l_noise.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>script/lua_api/l_noise.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] script/lua_api/l_noise.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>script/lua_api/l_noise.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] script/lua_api/l_object.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>script/lua_api/l_object.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] script/lua_api/l_object.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>script/lua_api/l_object.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] script/lua_api/l_object.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>script/lua_api/l_object.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] script/lua_api/l_particles.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>script/lua_api/l_particles.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] script/lua_api/l_particles.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>script/lua_api/l_particles.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] script/lua_api/l_particles.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>script/lua_api/l_particles.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] script/lua_api/l_vmanip.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>script/lua_api/l_vmanip.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] script/lua_api/l_vmanip.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>script/lua_api/l_vmanip.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] script/lua_api/l_vmanip.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>script/lua_api/l_vmanip.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] script/lua_api/luaapi.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>script/lua_api/luaapi.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] script/lua_api/luaapi.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>script/lua_api/luaapi.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] script/lua_api/luaapi.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>script/lua_api/luaapi.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] serialization.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>serialization.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] serialization.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>serialization.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] serialization.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>serialization.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] server.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>server.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] server.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>server.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] server.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>server.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] serverlist.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>serverlist.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] serverlist.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>serverlist.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] serverlist.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>serverlist.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] serverobject.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>serverobject.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] serverobject.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>serverobject.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] serverobject.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>serverobject.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] sha1.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>sha1.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] sha1.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>sha1.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] sha1.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>sha1.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] shader.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>shader.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] shader.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>shader.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] shader.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>shader.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] sky.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>sky.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] sky.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>sky.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] sky.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>sky.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] socket.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>socket.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] socket.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>socket.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] socket.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>socket.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] sound.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>sound.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] sound.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>sound.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] sound.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>sound.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] sound_openal.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>sound_openal.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] sound_openal.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>sound_openal.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] sound_openal.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>sound_openal.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] staticobject.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>staticobject.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] staticobject.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>staticobject.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] staticobject.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>staticobject.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] subgame.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>subgame.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] subgame.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>subgame.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] subgame.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>subgame.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] test.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>test.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] test.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>test.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] test.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>test.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] tile.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>tile.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] tile.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>tile.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] tile.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>tile.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] tool.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>tool.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] tool.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>tool.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] tool.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>tool.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] treegen.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>treegen.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] treegen.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>treegen.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] treegen.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>treegen.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] util/directiontables.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>util/directiontables.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] util/directiontables.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>util/directiontables.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] util/directiontables.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>util/directiontables.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] util/numeric.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>util/numeric.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] util/numeric.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>util/numeric.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] util/numeric.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>util/numeric.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] util/pointedthing.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>util/pointedthing.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] util/pointedthing.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>util/pointedthing.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] util/pointedthing.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>util/pointedthing.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] util/serialize.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>util/serialize.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] util/serialize.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>util/serialize.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] util/serialize.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>util/serialize.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] util/string.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>util/string.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] util/string.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>util/string.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] util/string.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>util/string.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] util/timetaker.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>util/timetaker.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] util/timetaker.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>util/timetaker.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] util/timetaker.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>util/timetaker.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] voxel.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>voxel.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] voxel.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>voxel.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] voxel.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>voxel.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] voxelalgorithms.cpp.o" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>voxelalgorithms.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] voxelalgorithms.cpp.i" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>voxelalgorithms.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] voxelalgorithms.cpp.s" path="src" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>voxelalgorithms.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": all" path="src/lua" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>all</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": clean" path="src/lua" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>clean</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[lib] lua" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>lua</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[lib] lua/fast" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>lua/fast</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="Build" path="[Targets]/[lib] lua" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-C "/home/will/Development/minetest" </buildArguments>
+<buildTarget>lua</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="Clean" path="[Targets]/[lib] lua" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/cmake</buildCommand>
+<buildArguments>-E chdir "/home/will/Development/minetest/src/lua/build" "/usr/bin/cmake" -P "CMakeFiles/lua.dir/cmake_clean.cmake"</buildArguments>
+<buildTarget></buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": all" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>all</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": clean" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>clean</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] lapi.o" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>lapi.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] lapi.i" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>lapi.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] lapi.s" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>lapi.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] lauxlib.o" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>lauxlib.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] lauxlib.i" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>lauxlib.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] lauxlib.s" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>lauxlib.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] lbaselib.o" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>lbaselib.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] lbaselib.i" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>lbaselib.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] lbaselib.s" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>lbaselib.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] lcode.o" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>lcode.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] lcode.i" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>lcode.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] lcode.s" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>lcode.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] ldblib.o" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>ldblib.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] ldblib.i" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>ldblib.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] ldblib.s" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>ldblib.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] ldebug.o" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>ldebug.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] ldebug.i" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>ldebug.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] ldebug.s" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>ldebug.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] ldo.o" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>ldo.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] ldo.i" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>ldo.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] ldo.s" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>ldo.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] ldump.o" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>ldump.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] ldump.i" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>ldump.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] ldump.s" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>ldump.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] lfunc.o" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>lfunc.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] lfunc.i" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>lfunc.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] lfunc.s" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>lfunc.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] lgc.o" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>lgc.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] lgc.i" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>lgc.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] lgc.s" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>lgc.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] linit.o" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>linit.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] linit.i" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>linit.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] linit.s" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>linit.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] liolib.o" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>liolib.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] liolib.i" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>liolib.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] liolib.s" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>liolib.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] llex.o" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>llex.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] llex.i" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>llex.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] llex.s" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>llex.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] lmathlib.o" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>lmathlib.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] lmathlib.i" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>lmathlib.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] lmathlib.s" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>lmathlib.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] lmem.o" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>lmem.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] lmem.i" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>lmem.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] lmem.s" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>lmem.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] loadlib.o" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>loadlib.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] loadlib.i" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>loadlib.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] loadlib.s" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>loadlib.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] lobject.o" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>lobject.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] lobject.i" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>lobject.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] lobject.s" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>lobject.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] lopcodes.o" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>lopcodes.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] lopcodes.i" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>lopcodes.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] lopcodes.s" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>lopcodes.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] loslib.o" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>loslib.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] loslib.i" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>loslib.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] loslib.s" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>loslib.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] lparser.o" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>lparser.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] lparser.i" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>lparser.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] lparser.s" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>lparser.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] lstate.o" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>lstate.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] lstate.i" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>lstate.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] lstate.s" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>lstate.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] lstring.o" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>lstring.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] lstring.i" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>lstring.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] lstring.s" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>lstring.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] lstrlib.o" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>lstrlib.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] lstrlib.i" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>lstrlib.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] lstrlib.s" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>lstrlib.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] ltable.o" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>ltable.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] ltable.i" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>ltable.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] ltable.s" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>ltable.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] ltablib.o" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>ltablib.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] ltablib.i" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>ltablib.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] ltablib.s" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>ltablib.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] ltm.o" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>ltm.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] ltm.i" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>ltm.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] ltm.s" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>ltm.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] lundump.o" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>lundump.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] lundump.i" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>lundump.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] lundump.s" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>lundump.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] lvm.o" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>lvm.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] lvm.i" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>lvm.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] lvm.s" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>lvm.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] lzio.o" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>lzio.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] lzio.i" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>lzio.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] lzio.s" path="src/lua/build" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>lzio.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": all" path="src/script" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>all</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": clean" path="src/script" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>clean</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": all" path="src/script/common" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>all</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": clean" path="src/script/common" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>clean</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": all" path="src/script/cpp_api" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>all</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": clean" path="src/script/cpp_api" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>clean</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": all" path="src/script/lua_api" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>all</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": clean" path="src/script/lua_api" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>clean</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": all" path="src/util" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>all</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": clean" path="src/util" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>clean</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[lib] jthread" path="src/jthread" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>jthread</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[lib] jthread/fast" path="src/jthread" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>jthread/fast</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="Build" path="[Targets]/[lib] jthread" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-C "/home/will/Development/minetest" </buildArguments>
+<buildTarget>jthread</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="Clean" path="[Targets]/[lib] jthread" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/cmake</buildCommand>
+<buildArguments>-E chdir "/home/will/Development/minetest/src/jthread" "/usr/bin/cmake" -P "CMakeFiles/jthread.dir/cmake_clean.cmake"</buildArguments>
+<buildTarget></buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": all" path="src/jthread" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>all</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": clean" path="src/jthread" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>clean</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] pthread/jmutex.cpp.o" path="src/jthread" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>pthread/jmutex.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] pthread/jmutex.cpp.i" path="src/jthread" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>pthread/jmutex.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] pthread/jmutex.cpp.s" path="src/jthread" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>pthread/jmutex.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] pthread/jthread.cpp.o" path="src/jthread" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>pthread/jthread.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] pthread/jthread.cpp.i" path="src/jthread" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>pthread/jthread.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] pthread/jthread.cpp.s" path="src/jthread" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>pthread/jthread.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[lib] jsoncpp" path="src/json" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>jsoncpp</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[lib] jsoncpp/fast" path="src/json" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>jsoncpp/fast</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="Build" path="[Targets]/[lib] jsoncpp" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments>-C "/home/will/Development/minetest" </buildArguments>
+<buildTarget>jsoncpp</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="Clean" path="[Targets]/[lib] jsoncpp" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/cmake</buildCommand>
+<buildArguments>-E chdir "/home/will/Development/minetest/src/json" "/usr/bin/cmake" -P "CMakeFiles/jsoncpp.dir/cmake_clean.cmake"</buildArguments>
+<buildTarget></buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": all" path="src/json" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>all</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name=": clean" path="src/json" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>clean</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[obj] jsoncpp.cpp.o" path="src/json" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>jsoncpp.cpp.o</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[pre] jsoncpp.cpp.i" path="src/json" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>jsoncpp.cpp.i</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+<target name="[to asm] jsoncpp.cpp.s" path="src/json" targetID="org.eclipse.cdt.make.MakeTargetBuilder">
+<buildCommand>/usr/bin/make</buildCommand>
+<buildArguments></buildArguments>
+<buildTarget>jsoncpp.cpp.s</buildTarget>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>false</useDefaultCommand>
+</target>
+</buildTargets>
+</storageModule>
+<storageModule moduleId="scannerConfiguration">
+<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.make.core.GCCStandardMakePerProjectProfile"/>
+<profile id="org.eclipse.cdt.make.core.GCCStandardMakePerProjectProfile">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="/usr/bin/cc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.make.core.GCCStandardMakePerFileProfile">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="makefileGenerator">
+<runAction arguments="-f ${project_name}_scd.mk" command="/usr/bin/make" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+</storageModule>
+</cconfiguration>
+</storageModule>
+<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+<project id="minetest.null.1" name="minetest"/>
+</storageModule>
+</cproject>

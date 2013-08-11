@@ -83,7 +83,9 @@ Player::Player(IGameDef *gamedef):
 	movement_liquid_fluidity        = 1    * BS;
 	movement_liquid_fluidity_smooth = 0.5  * BS;
 	movement_liquid_sink            = 10   * BS;
-	movement_gravity                = 35   * BS;
+	movement_gravity                = 50   * BS;
+	movement_damping_ground 		= 0.5;
+	movement_damping_air 			= 0.95;
 
 	// 
 	// WB: Movement defaults should be scripting-exposed, and should be
