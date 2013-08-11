@@ -73,17 +73,22 @@ Player::Player(IGameDef *gamedef):
 
 	// Initialize movement settings at default values, so movement can work if the server fails to send them
 	movement_acceleration_default   = 3    * BS;
-	movement_acceleration_air       = 2    * BS;
+	movement_acceleration_air       = 3    * BS;
 	movement_acceleration_fast      = 10   * BS;
 	movement_speed_walk             = 4    * BS;
 	movement_speed_crouch           = 1.35 * BS;
 	movement_speed_fast             = 20   * BS;
 	movement_speed_climb            = 2    * BS;
-	movement_speed_jump             = 6.5  * BS;
+	movement_speed_jump             = 25   * BS;
 	movement_liquid_fluidity        = 1    * BS;
 	movement_liquid_fluidity_smooth = 0.5  * BS;
 	movement_liquid_sink            = 10   * BS;
-	movement_gravity                = 9.81 * BS;
+	movement_gravity                = 35   * BS;
+
+	// 
+	// WB: Movement defaults should be scripting-exposed, and should be
+	// mutable at runtime, for gameplay.
+	//
 
 	// Movement overrides are multipliers and must be 1 by default
 	physics_override_speed   = 1;
@@ -106,63 +111,28 @@ void Player::accelerateHorizontal(v3f target_speed, f32 max_increase)
 {
 	if(max_increase == 0)
 		return;
-
 	v3f d_wanted = target_speed - m_speed;
 	d_wanted.Y = 0;
 	f32 dl = d_wanted.getLength();
 	if(dl > max_increase)
 		dl = max_increase;
-	
 	v3f d = d_wanted.normalize() * dl;
-
 	m_speed.X += d.X;
 	m_speed.Z += d.Z;
-
-#if 0 // old code
-	if(m_speed.X < target_speed.X - max_increase)
-		m_speed.X += max_increase;
-	else if(m_speed.X > target_speed.X + max_increase)
-		m_speed.X -= max_increase;
-	else if(m_speed.X < target_speed.X)
-		m_speed.X = target_speed.X;
-	else if(m_speed.X > target_speed.X)
-		m_speed.X = target_speed.X;
-
-	if(m_speed.Z < target_speed.Z - max_increase)
-		m_speed.Z += max_increase;
-	else if(m_speed.Z > target_speed.Z + max_increase)
-		m_speed.Z -= max_increase;
-	else if(m_speed.Z < target_speed.Z)
-		m_speed.Z = target_speed.Z;
-	else if(m_speed.Z > target_speed.Z)
-		m_speed.Z = target_speed.Z;
-#endif
 }
+
 
 // Vertical acceleration (Y), X and Z directions are ignored
 void Player::accelerateVertical(v3f target_speed, f32 max_increase)
 {
 	if(max_increase == 0)
 		return;
-
 	f32 d_wanted = target_speed.Y - m_speed.Y;
 	if(d_wanted > max_increase)
 		d_wanted = max_increase;
 	else if(d_wanted < -max_increase)
 		d_wanted = -max_increase;
-
 	m_speed.Y += d_wanted;
-
-#if 0 // old code
-	if(m_speed.Y < target_speed.Y - max_increase)
-		m_speed.Y += max_increase;
-	else if(m_speed.Y > target_speed.Y + max_increase)
-		m_speed.Y -= max_increase;
-	else if(m_speed.Y < target_speed.Y)
-		m_speed.Y = target_speed.Y;
-	else if(m_speed.Y > target_speed.Y)
-		m_speed.Y = target_speed.Y;
-#endif
 }
 
 v3s16 Player::getLightPosition() const
